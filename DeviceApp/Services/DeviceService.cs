@@ -19,13 +19,8 @@ namespace DeviceApp.Services
 
             Console.WriteLine(payload);
 
-            //   Console.WriteLine(payload);
-            // Console.WriteLine(Int32.TryParse(payload, out ttelemetryInterval)); Meddelandet som skickar med citattecken
-            // Console.WriteLine(telemetryInterval);
 
-            //  var parseResult = Int32.TryParse(payload);                                                  // Hur konvertera om något och mäta i en Ifsats Det vi skicka
-
-            if //(payload == "10") 
+            if 
                (Int32.TryParse(payload, out ttelemetryInterval)) //HÄR sätts den
             {
                 telemetryInterval = 10;
